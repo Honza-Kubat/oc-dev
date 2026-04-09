@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "description": "OpenCode plugin with custom skills, agents, and commands",
   "type": "module",
-  "main": "src/index.ts",
+  "main": "plugins/pr-review.ts",
+  "exports": {
+    ".": "./plugins/pr-review.ts"
+  },
   "files": [
     "src/",
+    "plugins/",
     "agents/",
     "commands/",
     "skills/"
