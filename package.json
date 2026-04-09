@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "description": "OpenCode plugin with custom skills, agents, and commands",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "src/index.ts",
   "files": [
-    "dist/",
+    "src/",
     "agents/",
     "commands/",
     "skills/"
